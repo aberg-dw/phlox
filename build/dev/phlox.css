@@ -5489,20 +5489,24 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
-.dw-Branding {
+.dw-LightTheme .dw-Branding,
+.dw-Branding.dw-LightTheme {
   background-color: #fff;
 }
-.dw-Branding-logo {
+.dw-LightTheme .dw-Branding-logo,
+.dw-Branding-logo.dw-LightTheme {
   display: inline-block;
   margin-top: 16px;
   margin-right: 20px;
   margin-bottom: 8px;
 }
-.dw-Branding-productName {
+.dw-LightTheme .dw-Branding-productName,
+.dw-Branding-productName.dw-LightTheme {
   border-left: 1px solid #ccc;
   display: inline-block;
   color: #84BD00;
   font-family: "Crete Round", Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
   font-weight: bold;
   line-height: 30px;
   padding-left: 20px;
